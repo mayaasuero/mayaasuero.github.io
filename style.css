@@ -1,0 +1,59 @@
+body{
+    background: #f3f6f4;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background: #dadada;
+    padding: 8px 0px 8px 0px;
+    text-align: center;
+}
+
+img {
+    padding: 8px;
+    margin: 8px;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.navbar {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+    display: block;
+    padding: 8px 0px 8px 0px;
+    font-weight: bold;
+}
+
+.navbar a:link { color: #4e1c7e;};
+.navbar a:hover { color: #b19ebe }
+
+.introduction {
+    height:100%;
+    margin-top: 180px;
+    margin-bottom: 250px;
+    transition: ease-in-out;
+}
+
+.introduction p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.page-section {
+    padding-top: 70px;
+}
+
+.emphasize {
+    color: #4e1c7e;
+    font-weight: bold;
+}
+
+.skills-section {
+    margin: 25px;
+}
