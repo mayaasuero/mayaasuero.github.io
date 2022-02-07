@@ -28,6 +28,8 @@ img {
     display: block;
     padding: 8px 0px 8px 0px;
     font-weight: bold;
+    padding-top: 25px;
+    padding-right: 25px;
 }
 
 .navbar a:link { color: #4e1c7e;};
@@ -37,7 +39,6 @@ img {
     height:100%;
     margin-top: 180px;
     margin-bottom: 250px;
-    transition: ease-in-out;
 }
 
 .introduction p {
@@ -47,6 +48,7 @@ img {
 
 .page-section {
     padding-top: 70px;
+    margin-bottom: 30px;
 }
 
 .emphasize {
@@ -56,4 +58,43 @@ img {
 
 .skills-section {
     margin: 25px;
+    padding: 20px;
+    background-color: #ddd3e0;
+    border-radius: 15px;
 }
+
+.compose-email{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 60px 0px 60px;
+}
+
+.compose-email input{
+    margin-bottom:25px;
+}
+
+.btn-default {
+    font-weight: bold;
+    background-color: #4e1c7e;
+    color:#f3f6f4;
+    padding: 8px 15px 8px 15px;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.btn-default:hover { 
+    color:#4e1c7e; 
+    background-color: #f3f6f4;
+    border: 1px solid;
+    border-color: #4e1c7e;
+}
+
+.contact-links {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+  
