@@ -56,7 +56,7 @@ img {
 
 .page-section {
     padding-top: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .emphasize {
@@ -64,11 +64,13 @@ img {
     font-weight: bold;
 }
 
+.skills {
+    padding-bottom: 40px;
+}
+
 .skills-section {
-    margin: 25px;
-    padding: 20px;
-    border-radius: 15px;
-    justify-content: flex-start;
+    margin: 10px;
+    justify-content: center;
 }
 
 .skills-section img:hover {
@@ -80,16 +82,8 @@ img {
     text-align:right;
 }
 
-.compose-email{
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 0px 60px 0px 60px;
-}
-
-.compose-email input{
-    margin-bottom:25px;
+.projects {
+    margin-bottom: 30px;
 }
 
 .btn-default {
@@ -113,6 +107,7 @@ img {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .profile-pic {
@@ -129,3 +124,33 @@ img {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(196,134,255,0.4682247899159664) 74%, rgba(78,28,126,0.6671043417366946) 100%);
 }
+
+.accent-bg {
+    background:#4e1c7e;
+    color:#f3f6f4;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.accent-bg h2, .accent-bg h3, .accent p {
+    color:#f3f6f4;
+}
+
+.btn-light {
+    width: 100%;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.btn-light:hover{
+    width: 100%;
+    font-weight: bold;
+    transition: 0.3s;
+    transform: scale(1.02);
+}
+
+.article-project {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
