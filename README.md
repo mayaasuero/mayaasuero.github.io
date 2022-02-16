@@ -8,5 +8,5 @@
 4. Contact links
 
 ### Updates being considered:
-[ ] Make design responsive
+[ ] Make design responsive <br/>
 [ ] Add more transitions
