@@ -168,7 +168,6 @@ footer {
 
     .intro-landing {
         flex-direction: column-reverse;
-        justify-content: space-arpund;
     }
 
     .skills .prog-lang, .skills .webdev, .skills .databases {
@@ -183,10 +182,16 @@ footer {
 
     .project-writeup {
         width: 100%;
+        padding: 10px;
     }
 
     .project-writeup img, .prog-lang img, .webdev img, .databases img {
-        width: 70px;
+        width: 80px;
         height: auto
+    }
+
+    .project-sc {
+        height: auto;
+        width: 90%;
     }
   }
